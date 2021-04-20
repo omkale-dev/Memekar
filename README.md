@@ -1,5 +1,5 @@
-# Khabar🗞
-###### Mobile app for all your news needs.
+#Memekar😂
+###### Make a meme, have a laugh
 
 ------------
 
@@ -9,29 +9,18 @@
 `Android, iOS`
 
 ------------
-Link???
+![Memekar](https://user-images.githubusercontent.com/55269410/115395663-be853500-a201-11eb-9d2a-a2a849512b4d.png)
 ------------
 #### Description: 
 - App Features:
-	1. User can get current worldwide news.
-	2. News for specific categories like `Business`,`Science` etc can be seen.
-	3. One can also search for specific news
-	4. News can be shared with others.
-- This was made with the intension to learn to make http requests to the `api's` and display data accordingly . 
-- I made use of `newsapi.org` to fetch the news data.
-- The json looks something like this.
-```dart
-Article article = Article(
-            title: element['title'],
-            author: element['author'],
-            description: element['description'],
-            urlToImage: element['urlToImage'],
-            publshedAt: DateTime.parse(element['publishedAt']),
-            content: element["content"],
-            articleUrl: element["url"],
-          );
-```
-- Made use of `Listviews`,`Gesture Detector`,`Web View`,and `Custom widgets`.
+	1. User can select images from `local storage`
+	2. One can add `text` on the selected image
+	3. The text can be resized
+	4. You can `change the color` of text.
+	5. Also one can `add emojis `to spice up the meme.
+- Being a meme lover, I had lot of fun coding the project. 
+- I Made use of `Repaint Boundary`,`Permission Handler`,`Routing`,`Bottom Sheet`,`Dialogs`, `Listviews`,`Gesture Detector` and `Custom widgets`.
+- Also created a custom widget which is draggable on canvas to allow user to place text and emojis accordingly.
 - App follows `Material Design` throught.
 - Made use of `MVC` pattern.
 
@@ -40,17 +29,21 @@ Article article = Article(
 ------------
 
 #### Packages Used:
-`http: ^0.13.1`
-`webview_flutter: ^2.0.2 `
-`share: ^2.0.1`
+  `cupertino_icons: ^1.0.2`
+ ` flutter_speed_dial: ^3.0.5`
+  `image_picker: ^0.7.3`
+  `image_gallery_saver: ^1.6.9`
+  `permission_handler: ^6.1.1`
+  `path_provider: ^2.0.1`
+ ` share: ^2.0.1`
+  `emoji_picker: ^0.1.0`
+  `flutter_material_color_picker: ^1.0.5`
 ###### For more info on packages visit [here](http://pub.dev "here")
 ------------
 
 #### Installation:
 - Install `Flutter` sdk
 - Download the packages using `flutter pub get`
-- Make your account on `NewsApi.org`, get the `api key`
-- Add the api key in `lib/secret.dart`
 - Fire up the emulator and you are good to go.
 
 ------------
@@ -81,4 +74,5 @@ samples, guidance on mobile development, and a full API reference.
 
 
    
+
 
