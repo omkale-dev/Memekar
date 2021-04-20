@@ -1,4 +1,4 @@
-#Memekar😂
+# Memekar😂
 ###### Make a meme, have a laugh
 
 ------------
@@ -29,15 +29,15 @@
 ------------
 
 #### Packages Used:
-  `cupertino_icons: ^1.0.2`
- ` flutter_speed_dial: ^3.0.5`
-  `image_picker: ^0.7.3`
-  `image_gallery_saver: ^1.6.9`
-  `permission_handler: ^6.1.1`
-  `path_provider: ^2.0.1`
- ` share: ^2.0.1`
-  `emoji_picker: ^0.1.0`
-  `flutter_material_color_picker: ^1.0.5`
+ - `cupertino_icons: ^1.0.2`
+-  ` flutter_speed_dial: ^3.0.5`
+-   `image_picker: ^0.7.3`
+-   `image_gallery_saver: ^1.6.9`
+-   `permission_handler: ^6.1.1`
+-   `path_provider: ^2.0.1`
+-  ` share: ^2.0.1`
+-   `emoji_picker: ^0.1.0`
+-   `flutter_material_color_picker: ^1.0.5`
 ###### For more info on packages visit [here](http://pub.dev "here")
 ------------
 
