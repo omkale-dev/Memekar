@@ -1,3 +1,5 @@
+> App that I made during college, I dont do app developement anymore. These are just memories😇.
+
 # Memekar😂
 ###### Make a meme, have a laugh
 
